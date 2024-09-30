@@ -1,0 +1,7 @@
+export { default as Group } from './group/Group.jsx'
+export { default as Home } from './home/Home.jsx'
+export { default as Login } from './login/Login.jsx'
+export { default as NotFound } from './notFound/NotFound.jsx'
+export { default as Profile } from './profile/Profile.jsx'
+export { default as OnBoarding } from './onBoarding/OnBoarding.jsx'
+export { default as TaskDetail } from './taskDetails/TaskDetail.jsx'
