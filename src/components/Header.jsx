@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <section className='flex py-20 px-10'>
+    <section className='flex py-10 px-16'>
       <div className='flex flex-col justify-between w-1/2 pe-10'>
         <h1 className='text-7xl pe-10'>Texto para llamar atención</h1>
         <div>
