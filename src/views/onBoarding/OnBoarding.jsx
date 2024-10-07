@@ -1,4 +1,12 @@
+import { useNavigate } from 'react-router-dom'
+
 const OnBoarding = () => {
+  const navigate = useNavigate()
+
+  const handleSubmit = () => {
+    navigate('/signup')
+  }
+
   return (
     <section className='flex flex-col mt-24 mb-12'>
       <h1 className='snap-start self-center md:sticky top-40 left-0 right-0 text-2xl font-bold mb-6'>Para ayudarte mejor, cuéntanos algo de ti...</h1>
@@ -87,7 +95,7 @@ const OnBoarding = () => {
                 <input type='radio' name='relate' value='otherRelate' id='otherRelate' className='peer/otherRelate border-gray-300 border-2 text-green-400 checked:border-gray-300 checked:ring-green-400' />
                 <label htmlFor='otherRelate' className='flex items-center cursor-pointer ps-6 peer-checked/otherRelate:text-green-400'>Otro</label>
               </article>
-              <a href='#relate' className='p-3 bg-green-400 rounded-lg'>Continuar</a>
+              <button className='p-3 bg-green-400 rounded-lg' onClick={handleSubmit}>Continuar</button>
             </div>
           </div>
         </article>
