@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "first_name": "Leighton",
+    "last_name": "Stead",
+    "email": "lstead0@phpbb.com",
+    "password": "$2a$04$90PtEb5oFrZ45Y8bhTHouuY.gDkivTIKMZkMxkDQ4eAr2BXfKuHu6",
+    "gender": null,
+    "role": "secondary",
+    "age": "young-adult",
+    "relationship": "professional"
+  },
+  {
+    "id": 2,
+    "first_name": "Astrix",
+    "last_name": "Farndale",
+    "email": "afarndale1@statcounter.com",
+    "password": "$2a$04$dfGVUl3oZcqzpnbgAtiuI.Htt2uAtnErdUpFGYnk9Lb6An3tMeNUS",
+    "gender": "Female",
+    "role": "support",
+    "age": "seniors",
+    "relationship": "other"
+  },
+  {
+    "id": 3,
+    "first_name": "Danella",
+    "last_name": "Clowes",
+    "email": "dclowes2@boston.com",
+    "password": "$2a$04$PieEiT/2hyfP4sn4ETm8j.xyrm0EE7fcEJqG7UYpmTe58QI6FVU8u",
+    "gender": "Female",
+    "role": "primary",
+    "age": null,
+    "relationship": "professional"
+  },
+  {
+    "id": 4,
+    "first_name": "Jean",
+    "last_name": "Chaperling",
+    "email": "jchaperling3@acquirethisname.com",
+    "password": "$2a$04$yHTwzS4IUBd6.LMksOwqV.geuFv.YlpNDYh2sGwFGEZUviB87lirK",
+    "gender": "Male",
+    "role": "primary",
+    "age": "middle-age",
+    "relationship": "other"
+  },
+  {
+    "id": 5,
+    "first_name": "Adolpho",
+    "last_name": "Kennler",
+    "email": "akennler4@yahoo.com",
+    "password": "$2a$04$ETIES/o/Lqq0LIdz8S7Vuusj4GrBWJCI84Bj8cDEM8YI1vp7yV/ee",
+    "gender": "Male",
+    "role": "support",
+    "age": "seniors",
+    "relationship": "other"
+  },
+  {
+    "id": 6,
+    "first_name": "Frants",
+    "last_name": "Scanes",
+    "email": "fscanes5@smh.com.au",
+    "password": "$2a$04$dLN7tEBd.gb5PymUO8.sie8yen9ZB5tk1dq92MsEDX.bQOIktryta",
+    "gender": "Male",
+    "role": "support",
+    "age": "young-adult",
+    "relationship": "professional"
+  },
+  {
+    "id": 7,
+    "first_name": "Rani",
+    "last_name": "Sillitoe",
+    "email": "rsillitoe6@bloglovin.com",
+    "password": "$2a$04$N18WI6c7xVK9so7Moeyh8OPuDnJl98tMNceCKDOznMxnKsYd.0J0y",
+    "gender": "Female",
+    "role": "secondary",
+    "age": "middle-age",
+    "relationship": "other"
+  },
+  {
+    "id": 8,
+    "first_name": "Claudell",
+    "last_name": "Rodda",
+    "email": "crodda7@eventbrite.com",
+    "password": "$2a$04$b/6FV55o5n98axUXbcEyxOpQwPEPDXawDgZ4vNyvOZBe9TsbKuOty",
+    "gender": null,
+    "role": "support",
+    "age": "young-adult",
+    "relationship": "professional"
+  },
+  {
+    "id": 9,
+    "first_name": "Errol",
+    "last_name": "Aldwinckle",
+    "email": "ealdwinckle8@geocities.com",
+    "password": "$2a$04$/p3f8dNAuQz2NKB3AsZsUOyYuIsEfm6bwvYqHGUrgb0HnxSoeqy4S",
+    "gender": "Male",
+    "role": "primary",
+    "age": "middle-age",
+    "relationship": "Daughter"
+  },
+  {
+    "id": 10,
+    "first_name": "Roderic",
+    "last_name": "O'Feeney",
+    "email": "rofeeney9@so-net.ne.jp",
+    "password": "$2a$04$yYccRQqNL5F3Mapr3wI./OEjQ1srNRA5qepsl3A6wucB6Dei10UVq",
+    "gender": "Male",
+    "role": "secondary",
+    "age": "adult",
+    "relationship": "other"
+  }
+]
