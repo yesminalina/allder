@@ -1,11 +1,10 @@
-import { createContext, useState } from 'react'
+import { createContext } from 'react'
+import useCaregiver from '../hooks/useCaregiver'
 
 export const UserContext = createContext()
 
 const UserContextProvider = ({ children }) => {
-  const [isAuth, setIsAuth] = useState(false)
-
-  const globalState = { isAuth }
+  const globalState = useCaregiver()
 
   return (
     <UserContext.Provider value={globalState}>
