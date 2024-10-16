@@ -55,8 +55,8 @@ const SignUpForm = () => {
           className='mt-1 mb-2 block w-full px-3 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500'
         />
         {errors.passwordConf && <div className='text-red-500 text-sm pb-2'>{errors.passwordConf.message}</div>}
-        <article className='flex flex-row gap-3'>
-          <div>
+        <article className='flex flex-row gap-4'>
+          <div className='grow'>
             <input
               {...register('name', {
                 required: 'Ingresa un nombre'
@@ -67,7 +67,7 @@ const SignUpForm = () => {
             />
             {errors.name && <div className='text-red-500 text-sm pb-2'>{errors.name.message}</div>}
           </div>
-          <div>
+          <div className='grow'>
             <input
               {...register('lastName', { required: 'Ingresa un apellido' })}
               type='text'
