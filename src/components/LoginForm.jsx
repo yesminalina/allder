@@ -1,7 +1,7 @@
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
-import { useCaregiverStore } from '../store'
+import { useCaregiverStore } from '../store/caregiverStore'
 
 // EJEMPLO DE VALIDACIÓN DE FORMULARIO CON ZOD
 const schema = z.object({
@@ -10,19 +10,17 @@ const schema = z.object({
 })
 
 const LoginForm = () => {
+  // Accedemos al estado del usuario y a la función para actualizarlo desde el store
+  const updateUser = useCaregiverStore((state) => state.updateUser)
+  // Usamos useForm para manejar el formulario y la validación
+  // con Zod a través de zodResolver
   const { register, handleSubmit, formState: { errors } } = useForm({
     resolver: zodResolver(schema)
   })
-
+  // Actualizamos el estado del usuario al enviar el formulario
   const onSubmit = (data) => {
-    console.log(data)
+    updateUser(data)
   }
-
-  // User Context
-  const user = useCaregiverStore((state) => state.user)
-  const updateUser = useCaregiverStore((state) => state.updateUser)
-  console.log(user)
-  console.log(updateUser)
 
   return (
     <form className='w-1/3' onSubmit={handleSubmit(onSubmit)}>

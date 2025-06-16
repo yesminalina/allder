@@ -6,5 +6,5 @@ export const useCaregiverStore = create((set) => ({
     userName: '',
     email: ''
   },
-  updateUser: (newUser) => set({ user: newUser })
+  updateUser: (newUser) => set({ ...newUser, user })
 }))
